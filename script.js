@@ -83,8 +83,8 @@ function renderWon() {
 
 function renderHigher() {
   infoTextEl.innerHTML = "Higher!";
-  guessesEl.innerHTML = `You have ${guesses} guesses left`;
   guesses--;
+  guessesEl.innerHTML = `You have ${guesses} guesses left`;
 }
 
 function renderLower() {
