@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <video class="background-video" autoplay loop muted>
+      <source src="assets/matrix_wallpaper.mp4" type="video/mp4" />
+    </video>
+
+    <div class="container">
+      <main class="site-content">
+        <div class="site-content-container">
+          <h1 class="logo">Number Guessing Game</h1>
+          <p class="info-text">Guess a number between 0 and 9</p>
+          <input class="input-field" type="number" />
+          <div class="buttons">
+            <button class="button" id="guessButton">Guess</button>
+            <button class="button" id="playAgainButton">Give Up</button>
+          </div>
+          <div class="guesses">You have 3 guesses</div>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
