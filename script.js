@@ -85,12 +85,14 @@ function renderHigher() {
   infoTextEl.innerHTML = "Higher!";
   guesses--;
   guessesEl.innerHTML = `You have ${guesses} guesses left`;
+  inputFieldEl.value = "";
 }
 
 function renderLower() {
   infoTextEl.innerHTML = "Lower!";
   guesses--;
   guessesEl.innerHTML = `You have ${guesses} guesses left`;
+  inputFieldEl.value = "";
 }
 
 function renderLost() {
